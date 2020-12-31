@@ -1,0 +1,60 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    color: #ffffff;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color: white;
+}
+.bodyimg{
+    padding: 10px;
+    background-position: 00;
+    background-origin: content-box;
+    text-align: center;
+    font-family: cursive;
+    background-color: img;
+    color:#ffffff;
+    background-image: url(back3.jpg);
+    background: size 600%;;
+    background-repeat: inherit;
+}
+.grid{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: #2b2a2a;
+}
+.grid img{
+   
+    border-radius: 50px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.origami{
+    
+    border:2px solid#000000;
+    border-style: dotted;
+    justify-self: space-between;
+    flex-wrap: wrap;
+    padding:30px;
+    margin: 25px;
+    width:310px;
+    border-radius: 25px;
+    background-color:#ffffff;
+    margin-top: 10px;
+    
+}
